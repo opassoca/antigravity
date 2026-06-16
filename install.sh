@@ -9,13 +9,13 @@ echo "[*] Installing Master: Auth Ecosystem..."
 cd "$PROJECT_DIR/auth-ecosystem" && ./install.sh
 
 # 2. Install Consumers
-echo "[*] Installing Consumer: Proxy Connection..."
+echo "[*] Installing Consumer: agy3 (Proxy Connection)..."
 cd "$PROJECT_DIR/antigravity-proxy" && ./install.sh
 
-echo "[*] Installing Consumer: Gemini Switcher..."
+echo "[*] Installing Consumer: gemini-switch (Quick Switcher)..."
 cd "$PROJECT_DIR/gemini-switcher" && ./install.sh
 
 echo ""
 echo "✨ Antigravity Ecosystem Installed Successfully!"
-echo "◈ Commands: auth, antigravity-proxy, gemini-switcher"
+echo "◈ Commands: auth, agy3, proxy, gemini-switch, switch"
 echo "------------------------------------------------"
