@@ -19,7 +19,7 @@ O painel mestre de identidade. Gerencia tokens e define a conta ativa.
 ### ⚡ [Consumer] Agy3 (`/agy3`)
 Túnel de execução para o motor oficial Gemini CLI.
 
-### 🔄 [Consumer] GMNA (`/antigravity-cli`)
+### 🔄 [Consumer] GMNA (`/gemini-switcher`)
 Seletor de perfis ultra-rápido integrado ao mestre.
 
 ---

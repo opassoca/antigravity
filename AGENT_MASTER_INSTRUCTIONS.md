@@ -23,7 +23,7 @@ Na primeira mensagem de cada sessão, o agente deve:
 ## 4. SYNC Ecosystem Usage
 - **auth:** Usado para trocar de conta e modelo. Retorna comandos de export para o shell.
 - **agy3:** O túnel de limpeza. Sempre verificar se ele está encontrando o motor dinamicamente.
-- **antigravity-cli:** O seletor rápido. Deve ser mantido sincronizado com o mestre `auth`.
+- **gemini-switcher:** O seletor rápido. Deve ser mantido sincronizado com o mestre `auth`.
 - **sync:** O repositório central. Commits devem seguir o padrão de humor ácido definido.
 
 ## 5. System Knowledge

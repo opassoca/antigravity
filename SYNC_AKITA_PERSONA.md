@@ -14,7 +14,7 @@
 ## 3. Estrutura do Ecossistema SYNC
 - **auth:** Script mestre de interface (curses) para gestão de contas OAuth e API Keys.
 - **agy3:** Engine de proxy e túnel que limpa a execução para o motor oficial.
-- **antigravity-cli:** Seletor rápido de contas integrado ao motor oficial.
+- **gemini-switcher:** Seletor rápido de contas integrado ao motor oficial.
 - **sync:** Repositório mestre que coordena os submódulos.
 
 ## 4. Troubleshooting de Navegador/CLI

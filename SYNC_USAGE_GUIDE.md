@@ -5,7 +5,7 @@
   - *Uso:* `auth` (O wrapper no `.bashrc` já faz o `eval`).
 - **`oauth`**: Atalho para autenticação de novas contas Google.
 - **`agy3`**: Motor de proxy/túnel para o CLI oficial.
-- **`antigravity-cli`**: Seletor rápido de modelos e contas via linha de comando.
+- **`gemini-switcher`**: Seletor rápido de modelos e contas via linha de comando.
 
 ## 2. Atalhos do Painel `auth`
 | Tecla | Ação |
