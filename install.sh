@@ -1,21 +1,21 @@
 #!/bin/bash
 set -e
-echo "◈ ECOSYSTEM PDK - Master Installer ◈"
+echo "◈ PDK - Master Installer ◈"
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # 1. Install Master Panel first
-echo "[*] Installing Master: Gemini Auth..."
+echo "[*] Installing Master: Auth..."
 cd "$PROJECT_DIR/auth" && ./install.sh
 
 # 2. Install Consumers
-echo "[*] Installing Consumer: AGY3 Proxy..."
+echo "[*] Installing Consumer: Agy3..."
 cd "$PROJECT_DIR/agy3" && ./install.sh
 
-echo "[*] Installing Consumer: GMN Switcher..."
-cd "$PROJECT_DIR/gmnswitcher" && ./install.sh
+echo "[*] Installing Consumer: GMNA..."
+cd "$PROJECT_DIR/gmna" && ./install.sh
 
 echo ""
-echo "✨ Ecosystem PDK Installed Successfully!"
-echo "◈ Commands Available: auth, oauth, agy3, gmnswitcher"
+echo "✨ PDK Ecosystem Installed Successfully!"
+echo "◈ Commands: auth, oauth, agy3, gmna"
 echo "------------------------------------------------"
