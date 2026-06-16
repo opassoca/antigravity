@@ -18,4 +18,5 @@ cd "$PROJECT_DIR/gmna" && ./install.sh
 echo ""
 echo "✨ SYNC Sync Installed Successfully!"
 echo "◈ Commands: auth, oauth, agy3, gmna"
+# PDK: SYNC MASTER INSTALLER - Carioca Enthusiast Edition
 echo "------------------------------------------------"
